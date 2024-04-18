@@ -1,0 +1,158 @@
+
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.web-logo{
+    height: 50px;
+    width: 70px;
+}
+.hamburger-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.hamburger-logo{
+    font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+    .hamburger-button{display: none;}
+}
+
+.nav-content{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+    .nav-content{display: none;}
+}
+.social-media-container{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-container{
+    background-color: transparent;
+    border-radius: 40px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #000000;
+    
+}
+@media screen and (max-width: 767px) {
+    .social-media-container{display: none;}
+}
+.icon{
+    font-size: 20px;
+}
+.Home-container{
+    background-image: url(/img/heroimg.jpg);
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 30px;
+}
+.title-container{
+    background-image: linear-gradient(to right, #0E0D0D, #7D7979);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.content-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #AEABAB;
+}
+.content{
+    width: 25%;
+    line-height: 1.5;
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+    .content-container{flex-direction: column;}
+    .content{width: 90%;}
+}
+.Home-Details-container{
+    padding: 40px;
+    background-color: #D9D2D2;
+}
+.heading{
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.facilities-container{
+    width: 25%;
+}
+.facilities-image{
+    height: 200px;
+    width: 100%;
+}
+.rooms-content{
+    text-align: left;
+}
+.dining-content{
+    text-align: center;
+}
+.pools-content{
+    text-align: right;
+}
+
+.facility-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+.facilities-para{
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+.button{
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 20px;
+    border: none;
+}
+@media screen and (max-width: 767px) {
+    .Home-Details-container{
+        padding: 20px;
+    }
+    .details-container{
+        flex-direction: column;
+    }
+    .facilities-container{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
